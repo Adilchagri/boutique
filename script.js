@@ -48,9 +48,9 @@ let products = [
     description: "product 8",
   },
   {
-    name: "Link",
-    image: "images/link.jpg",
-    price: 25,
+    name: "boss",
+    image: "images/Capture,boygraffity.PNG",
+    price: 45,
     description: "product 9",
   },
 ];

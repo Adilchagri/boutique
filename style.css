@@ -22,7 +22,8 @@ header {
   background-color: rgb(27, 27, 27);
   padding: 10px;
   font-size: 2rem;
-  color: #3c3c3c;
+  text-shadow: 10px 5px 2px rgba(0, 0, 0, 0.5);
+  color: #bdb8b8;
   text-align: center;
   font-weight: bold;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
