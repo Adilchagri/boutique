@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+		<title>Boutique En ligne</title>
+	</head>
+	<body>
+		<header>Ma boutique en ligne</header>
+		<main>
+			<section></section>
+			<aside>
+				<input class="search" type="text" placeholder="Rechercher des produits..." />
+				<div class="total-price">Total du panier :&nbsp;<span>0</span>&nbsp;$</div>
+				<div class="items"></div>
+			</aside>
+		</main>
+		<template id="item">
+			<div class="border item">
+				<img src="" alt="" />
+				<div class="item-name"></div>
+				<div class="item-price"><span class="times"></span><span class="number"></span></div>
+				<img class="delete" src="images/poubelle.jpg" />
+			</div>
+		</template>
+		<template id="article">
+			<article class="border">
+				<div class="product-name"></div>
+				<div class="border product-info">
+					<img src="" alt="" />
+					<div class="price"><span></span> $</div>
+				</div>
+				<div class="product-details">
+					<div class="border description"></div>
+					<div class="cart">
+						<div class="counter">
+							<input type="text" />
+							<div class="btn-wrapper">
+								<button class="plus">+</button>
+								<button class="minus">-</button>
+							</div>
+						</div>
+						<img class="buy" src="images/panier.jpg" alt="" />
+					</div>
+				</div>
+			</article>
+		</template>
+	</body>
+</html>
